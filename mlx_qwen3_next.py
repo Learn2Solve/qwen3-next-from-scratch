@@ -25,7 +25,7 @@ from mlx_lm import generate, load
 from mlx_lm.utils import tree_flatten
 
 
-DEFAULT_MODEL_ID = "Qwen/Qwen3-1.5B-Instruct"
+DEFAULT_MODEL_ID = "Qwen/Qwen3-Next-80B-A3B-Instruct"
 
 
 def describe_parameters(model) -> Iterable[Tuple[str, Tuple[int, ...], float]]:
